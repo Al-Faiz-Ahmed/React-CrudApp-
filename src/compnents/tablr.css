@@ -1,0 +1,62 @@
+.tableDiv {
+  border: 2px solid white;
+  padding: 10px;
+  margin: auto;
+  margin-top: 50px;
+  width: fit-content;
+  border-collapse: inherit;
+  border-radius: 10px;
+  z-index: 11;
+  position: relative;
+  backdrop-filter: blur(160px) saturate(90%);
+ ;
+}
+table {
+  font-size: 1.1rem;
+  color: #ffffff;
+  /* width: 100%; */
+  /* border-collapse:collapse ; */
+}
+
+th {
+    text-align: left;
+}
+
+.table__partiton {
+  display: flex;
+}
+.sr__no {
+  width: 10%;
+  text-align: center;
+}
+.sr__no,
+.name,
+.roll,
+.action {
+  padding: 10px 15px;
+  /* border-radius: 15px; */
+  /* background-color: rgba(0, 0, 0, 0.205); */
+}
+.sr__no,
+.name,
+.roll {
+  /* border-right: 2px solid white; */
+}
+.actionDiv{
+    width: 25%;
+}
+.actionDiv button {
+  border-radius: 10px;
+  font-size: .9rem;
+  color: #ee51bf;
+  width: 40%;
+  height: 100%;
+  padding: 10px 10px;
+  background-color: rgba(255, 255, 255, 0.63);
+  cursor: pointer;
+  border: 0px solid white;
+  outline: none;
+}
+.actionDiv button:nth-child(2) {
+  margin-left: 10px;
+}

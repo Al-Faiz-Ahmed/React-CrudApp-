@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  
+  padding: 0;
+}
+.body{
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+  color: white;
+  min-height: 100vh;
+  background-color: #FBDA61;
+  background-image: linear-gradient( 45deg,#FBDA61  , #FF5ACD );
+  
+  
+}
+
